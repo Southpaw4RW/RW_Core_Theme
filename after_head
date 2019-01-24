@@ -1,0 +1,81 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<script src="https://use.typekit.net/vki0kfo.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<!--Directly RTM Script-->
+
+<script>
+
+    // Set up vinyl analytics.
+
+    var VinylAnalyticsObject = 'vinyl';
+
+    (function () {
+
+        var vinyl = function () {
+
+            vinyl.q.push(arguments);
+
+        },
+
+            first = document.getElementsByTagName('script')[0],
+
+            script = document.createElement('script');
+
+        vinyl.q = [];
+
+        vinyl.l = new Date().getTime();
+
+        window[VinylAnalyticsObject] = vinyl;
+
+        script.async = 'true';
+
+        script.src = 'https://d3wdjt5ew2z7q.cloudfront.net/vinyl/vinyl-basic.js';
+
+        first.parentNode.insertBefore(script, first);
+
+    }());
+
+    // Track a pageview.
+
+    vinyl('page');
+
+</script>
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 4660801;
+    (function () {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+</script>
+<!--Directly RTM Script-->
+<!---<script>
+    (function(d, i, r, e, c, t, l, y) {
+        i[r] = i[r] || function () {
+            (i[r].cq = i[r].cq || []).push(arguments)
+        };
+        l = d.createElement(c);
+        l.id = "directlyRTMScript";
+        l.src = e;
+        l.async = 1;
+        y = d.getElementsByTagName(c)[0];
+        if (d.readyState === "complete" || d.readyState === "loaded" || d.readyState === "interactive") {
+            y.parentNode.insertBefore(l, y);
+        } else if (i.addEventListener) {
+            i.addEventListener("DOMContentLoaded", function() { y.parentNode.insertBefore(l, y); });
+        } else {
+            i.attachEvent("onload", function() { y.parentNode.insertBefore(l, y); });
+        }
+    })(document, window, "DirectlyRTM", "https://www.directly.com/widgets/rtm/embed.js", "script");
+    
+    var directly_rand = Math.round(Math.random()*10);
+
+    DirectlyRTM("config", {
+        id: "8a12a3ca550f87600155315aa2a61b2f",
+        metadata:{"Location": window.location.href, "private":{"routing":"support_rtm-" + directly_rand, "zendesk_field":"directly_rtm", "subject":"RTM Support"}}
+        });
+</script> --->
+<!--End of Directly code -->
+<meta name="google-site-verification" content="JAyPF2J_xCe-9LfLMc3Hnc-5QLjkZ3kSr5y4UmJRu0g" />
