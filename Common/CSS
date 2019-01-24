@@ -356,3 +356,6 @@ header #site-text-logo {
 div.categories-wrapper a.badge-wrapper span.badge-category span.category-name {color:$header_primary;}
 div.topic-header-extra a.topic-featured-link {color:$header_primary;}
 div.topic-statuses a svg use {color:$header_primary;}
+
+// Southpaw addition 1/24 to make the "reply by E-mail" icon stand out more
+div.via-email svg.d-icon-far-envelope use {color:$tertiary; font-weight:bold;}
