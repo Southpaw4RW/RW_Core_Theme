@@ -359,3 +359,6 @@ div.topic-statuses a svg use {color:$header_primary;}
 
 // Southpaw addition 1/24 to make the "reply by E-mail" icon stand out more
 div.via-email svg.d-icon-far-envelope use {color:$tertiary; font-weight:bold;}
+
+//Southpaw addition 3/17 to render auto-linkified words in normal header colors when in headings
+h1 a.linkify-word, h2 a.linkify-word, h3 a.linkify-word, h4 a.linkify-word, h5 a.linkify-word, h6 a.linkify-word, {color:$primary};
