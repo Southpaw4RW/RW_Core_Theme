@@ -341,24 +341,15 @@ header #site-text-logo {
 
 //Tab
 
-// Change the icons for the slick gallery and photo upload. 
-// People think the "image" icon for Slick means upload a picture. Make it >>, and put the picture icon in place of the up arrow.
-.SlickGallery .fa-picture-o:before {
-    content: "\f152";   // font awesome code
-}
-.upload .fa-upload:before {
-    content: "\f03e";   // font awesome code
-}
 
-
-// Southpaw additions 1/23 to fix the color of the category names in the green header bar. They are currently #bfbfbf which is not even a theme color.
+// Southpaw additions 1/23/19 to fix the color of the category names in the green header bar. They are currently #bfbfbf which is not even a theme color.
 
 div.categories-wrapper a.badge-wrapper span.badge-category span.category-name {color:$header_primary;}
 div.topic-header-extra a.topic-featured-link {color:$header_primary;}
 div.topic-statuses a svg use {color:$header_primary;}
 
-// Southpaw addition 1/24 to make the "reply by E-mail" icon stand out more
+// Southpaw addition 1/24/19 to make the "reply by E-mail" icon stand out more
 div.via-email svg.d-icon-far-envelope use {color:$tertiary; font-weight:bold;}
 
-//Southpaw addition 3/17 to render auto-linkified words in normal header colors when in headings
+//Southpaw addition 3/17/19 to render auto-linkified words in normal header colors when in headings
 h1 a.linkify-word, h2 a.linkify-word, h3 a.linkify-word, h4 a.linkify-word, h5 a.linkify-word, h6 a.linkify-word, {color:$primary};
